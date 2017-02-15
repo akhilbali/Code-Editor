@@ -142,7 +142,7 @@ class Pad:
 				self.text.mark_set("range_start",'1.0')
 				for token,content in lex(code,self.lexer):
 					configuration(self.text)
-					print(str(token))
+					#print(str(token))
 					self.text.mark_set("range_end","range_start + %dc" %len(content))
 					self.text.tag_add(str(token),"range_start","range_end")
 					self.text.mark_set("range_start","range_end")
