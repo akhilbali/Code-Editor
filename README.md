@@ -6,7 +6,7 @@ auto-indentation for the programming languages like C,Cpp,python and Java.</p></
 <h3>Requirements</h3>
 1. python3</br>
 2. tkinter(sudo apt-get install python3-tk)</br>
-3. pygments(sudo pip install pygments)</br>
+3. pygments(sudo pip install pygments)</br></br>
 
 <p>To use the editor, simply execute the "main.py" file making sure that all the required modules (tkinter and pygments) are
 installed and all the other files are in the same folder.</p>
